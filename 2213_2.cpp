@@ -9,19 +9,19 @@ int main(int argc, char *argv[])
 	
 	int temp;
  
-	cin >> num;
+	cin >> num; //216
  
-	for (int i = 1; i < num; ++i) {
-		sum = i;
-		temp = i;
+	for (int i = 1; i < num; ++i) { //216까지실행
+		sum = i; //sum =1
+		temp = i; //temp 1
  
-		while (temp>0) {
+		while (temp>0) { 
 			sum += temp % 10;
 			temp /= 10;
 		}
  
 		if (num == sum) {
-			cout << i << endl;
+			cout << i;
 			return 0;
 		}
 	}
