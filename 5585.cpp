@@ -3,7 +3,7 @@ using namespace std;
 int money=1000;
 int f=1;
 int f1=500;//첫시작 500엔
-
+int n[6]={500,100,50,10,5,1};
 void check(int temp){
 	int sum=0;//동전 합
 	int ans; //동전 카운팅
