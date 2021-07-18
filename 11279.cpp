@@ -8,7 +8,7 @@ int main(){
 	int start;
 	int end;
 	double result;
-	start=clock();
+	//start=clock();
 	int in;
 	cin >> in;
 	while(in--){
@@ -26,8 +26,8 @@ int main(){
 			he.push(temp);
 		}
 	}
-	end=clock();
-	result = (double)(end - start) / CLOCKS_PER_SEC;
-    cout << result << "초" ; //?왜 이게 더 빠른데 왜 시간초과야 ^^ㅣ
+	//end=clock();
+	//result = (double)(end - start) / CLOCKS_PER_SEC;
+   // cout << result << "초" ; //?왜 이게 더 빠른데 왜 시간초과야 ^^ㅣ
 	return 0;
 }
